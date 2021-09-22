@@ -7,7 +7,7 @@
 
 import Foundation
 
-class GetLogoName{
+public class GetLogoName{
     public init(){
         
     }
