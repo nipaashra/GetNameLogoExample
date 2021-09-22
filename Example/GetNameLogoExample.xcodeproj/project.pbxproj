@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19B901664E87A8BE3D7A2A48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4A4578626F61D29C9FED2362 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		19B901664E87A8BE3D7A2A48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4A4578626F61D29C9FED2362 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5DA65A6BB8A1E0630DC8116B /* Pods-GetNameLogoExample_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetNameLogoExample_Example.release.xcconfig"; path = "Target Support Files/Pods-GetNameLogoExample_Example/Pods-GetNameLogoExample_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GetNameLogoExample_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetNameLogoExample_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		B829D47C44F07266E03E4538 /* Pods-GetNameLogoExample_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetNameLogoExample_Example.debug.xcconfig"; path = "Target Support Files/Pods-GetNameLogoExample_Example/Pods-GetNameLogoExample_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E1276178B98D9AC4DC59400A /* Pods-GetNameLogoExample_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetNameLogoExample_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GetNameLogoExample_Tests/Pods-GetNameLogoExample_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F517BEA78C6F02CCE994FC09 /* Pods_GetNameLogoExample_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetNameLogoExample_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F65E4CB0B305646DA31C93CE /* GetNameLogoExample.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GetNameLogoExample.podspec; path = ../GetNameLogoExample.podspec; sourceTree = "<group>"; };
+		F65E4CB0B305646DA31C93CE /* GetNameLogoExample.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GetNameLogoExample.podspec; path = ../GetNameLogoExample.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F8D8883822C8AB9A8CDC7231 /* Pods-GetNameLogoExample_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetNameLogoExample_Tests.release.xcconfig"; path = "Target Support Files/Pods-GetNameLogoExample_Tests/Pods-GetNameLogoExample_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,6 @@
 				E1276178B98D9AC4DC59400A /* Pods-GetNameLogoExample_Tests.debug.xcconfig */,
 				F8D8883822C8AB9A8CDC7231 /* Pods-GetNameLogoExample_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

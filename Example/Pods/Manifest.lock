@@ -1,0 +1,16 @@
+PODS:
+  - GetNameLogoExample (0.1.0)
+
+DEPENDENCIES:
+  - GetNameLogoExample (from `../`)
+
+EXTERNAL SOURCES:
+  GetNameLogoExample:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GetNameLogoExample: 359afa69aaf4390b15efa8a7683f5ac9b2466201
+
+PODFILE CHECKSUM: fa736f5149ab84db5bfc5656356ce5e8d78cb2da
+
+COCOAPODS: 1.9.1
