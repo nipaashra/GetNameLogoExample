@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GetNameLogoExample_Example' do
+  pod 'GetNameLogoExample', :path => '../'
+
+  target 'GetNameLogoExample_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
