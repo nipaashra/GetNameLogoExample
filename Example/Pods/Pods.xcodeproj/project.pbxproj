@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18B173F626FAE07C00D3BB82 /* GetLogoName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B173F526FAE07C00D3BB82 /* GetLogoName.swift */; };
+		18B173FC26FAE62C00D3BB82 /* GetLogoName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B173FA26FAE62C00D3BB82 /* GetLogoName.swift */; };
+		18B173FD26FAE62C00D3BB82 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 18B173FB26FAE62C00D3BB82 /* .gitkeep */; };
 		2880502963507739F1400702C5ACC65C /* GetNameLogoExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 937B8FD55FE1CCBF2767651A83B6C144 /* GetNameLogoExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A79E2F4B0979E268E266D8B6689180F /* Pods-GetNameLogoExample_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FED5F953E5DD846E4F5A6DDD756E7A5 /* Pods-GetNameLogoExample_Example-dummy.m */; };
 		2F7CEEFCBF8DFB0EC63241A8B3E61FC0 /* Pods-GetNameLogoExample_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8FE349699CCA4F40E4CE5314AE8B190 /* Pods-GetNameLogoExample_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,7 +42,8 @@
 		04F124060A98D7BCA76F34F051BAF907 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		08B527738F4C2645697ADD09E1C801F9 /* GetNameLogoExample-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GetNameLogoExample-prefix.pch"; sourceTree = "<group>"; };
 		15CE66F68A3AAA838BDB4143A4FB5732 /* Pods-GetNameLogoExample_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GetNameLogoExample_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		18B173F526FAE07C00D3BB82 /* GetLogoName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLogoName.swift; sourceTree = "<group>"; };
+		18B173FA26FAE62C00D3BB82 /* GetLogoName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLogoName.swift; sourceTree = "<group>"; };
+		18B173FB26FAE62C00D3BB82 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		194099EAD86B5FE26CF591FC8E7ADEE6 /* Pods-GetNameLogoExample_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GetNameLogoExample_Tests-Info.plist"; sourceTree = "<group>"; };
 		20E47B0361F585FC88E4E70B130C5B2B /* Pods-GetNameLogoExample_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GetNameLogoExample_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		24087B2BDBC6CCB703E5C0C7B16A06C4 /* Pods-GetNameLogoExample_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GetNameLogoExample_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -110,6 +112,16 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		18B173F926FAE62C00D3BB82 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18B173FA26FAE62C00D3BB82 /* GetLogoName.swift */,
+				18B173FB26FAE62C00D3BB82 /* .gitkeep */,
+			);
+			name = Classes;
+			path = GetNameLogoExample/Classes;
+			sourceTree = "<group>";
+		};
 		225A173E19E071CB2860C6C8BE5FFA0C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +134,7 @@
 		452DE2BC03D0C245864AD05F09ACA719 /* GetNameLogoExample */ = {
 			isa = PBXGroup;
 			children = (
+				18B173F926FAE62C00D3BB82 /* Classes */,
 				06AA4D2FB6BBF297FF5284E724DDBE88 /* Pod */,
 				B2D7CBB7E8D430B6116F083EF247137F /* Support Files */,
 			);
@@ -132,7 +145,6 @@
 		7E0FDE191B0ACACC94CAEF7D66C07A31 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				18B173F526FAE07C00D3BB82 /* GetLogoName.swift */,
 				452DE2BC03D0C245864AD05F09ACA719 /* GetNameLogoExample */,
 			);
 			name = "Development Pods";
@@ -362,6 +374,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B173FD26FAE62C00D3BB82 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +401,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B173F626FAE07C00D3BB82 /* GetLogoName.swift in Sources */,
+				18B173FC26FAE62C00D3BB82 /* GetLogoName.swift in Sources */,
 				825FCE2F65700FB0069E4C8B77E5EFBB /* GetNameLogoExample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
